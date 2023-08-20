@@ -1,0 +1,26 @@
+.footer {
+  background-color: #000000;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.footer-content {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.rotating-logo {
+  animation: rotate 5s linear infinite;
+  height: 40px;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
